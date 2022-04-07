@@ -14,16 +14,16 @@
   "dependencies": {
     "express": "~>3",
     "underscore": "~1.4.4",
-    "async": "~0.1.22",
-    "request": "~2.16",
-    "rendr-handlebars": "0.0.5",
-    "rendr": "0.5.0-alpha07",
+    "async": "~3.2.2",
+    "request": "~2.75.0",
+    "rendr-handlebars": "0.0.7",
+    "rendr": "1.0.0",
     "debug": "*",
     "config": "0.4.x",
     "js-yaml": "2.x.x"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.3.0",
     "grunt-contrib-stylus": "~0.5.0",
     "grunt-contrib-handlebars": "git://github.com/spikebrehm/grunt-contrib-handlebars#a4ae75750efeb23bf8ca9c61d9cf7569d40879fa",
     "grunt-rendr-stitch": "~0.0.6",
