@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --ui bdd --reporter spec  ./test --recursive",
-    "start": "DEBUG=app:* node index.js"
+    "start": "DEBUG=app:* node index.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,8 @@
     "rendr": "0.5.0",
     "debug": "*",
     "config": "0.4.x",
-    "js-yaml": "2.x.x"
+    "js-yaml": "2.x.x",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "grunt": "~1.5.0",
@@ -34,5 +37,6 @@
   },
   "engines": {
     "node": ">=0.8"
-  }
+  },
+  "snyk": true
 }
